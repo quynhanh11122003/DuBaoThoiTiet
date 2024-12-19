@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "156592388246",
+    "project_id": "dubaott-9f34f",
+    "storage_bucket": "dubaott-9f34f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156592388246:android:4d93a4503b3ba3f4112ab7",
+        "android_client_info": {
+          "package_name": "com.example.dubaott"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFnMa-YEkzun8evDHbTDEspgrg4n5fwi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

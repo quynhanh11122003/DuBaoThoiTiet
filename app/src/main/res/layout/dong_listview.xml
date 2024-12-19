@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/textViewNgay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày tháng"
+            android:textColor="#181717"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/textviewTrangthai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trạng thái"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:id="@+id/imageTrangThai"
+                android:src="@drawable/gio"/>
+
+            <TextView
+                android:id="@+id/textviewMaxTemp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Max Temp"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textviewMinTemp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Min Temp"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
